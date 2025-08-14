@@ -12,7 +12,7 @@ public:
               while(preflen>s.length()||pref!=s.substr(0,preflen)){
           preflen--;
           if(preflen==0)  
-              return "";
+              return " ";
           pref=pref.substr(0,preflen);
         } 
     }
